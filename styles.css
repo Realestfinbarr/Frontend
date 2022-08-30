@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background: hsl(217, 51%, 11%);
+    padding: 50px 450px;
+}
+#picture{
+    width:350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px hsl(217, 51%, 11%);
+}
+section ul{
+    width: 350px;
+    background: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+li{
+    list-style: none;
+}
+#avatar{
+    width: 30px;
+}
+h1{
+    color: hsl(178, 100%, 50%);
+}
+p{
+    color: hsl(215, 51%, 70%);
+}
+#eth h2{
+    font-size: 12px;
+  }
+#eth div{
+    display: flex;
+    align-items: center;
+}
+#eth{
+    display: flex;
+    justify-content: space-between;
+}
+#eth img{
+    margin-right: 7px;
+}
+h2{
+    color: hsl(178, 100%, 50%);
+    font-size: 12px;
+    font-weight: bold;
+}
+h3{
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+
+}
+.ethh{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    border: 1px solid hsl(217, 51%, 11%);
+}
+#foot-div{
+    display: flex;
+}
+#foot-div img{
+    object-fit: contain;
+    margin-right: 12px;
+    border-radius: 50%;
+}
+span{
+    color: hsl(178, 100%, 50%);
+}
